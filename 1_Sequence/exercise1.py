@@ -1,0 +1,10 @@
+surname = input("surname: ")
+first_name = input("first name: ")
+street = input("street: ")
+number = int(input("number: "))
+zip_code = int(input("zip code: "))
+city = input("city: ")
+
+print(f"{first_name} {surname}")
+print(f"{street} {number}")
+print(f"{zip_code} {city}")
